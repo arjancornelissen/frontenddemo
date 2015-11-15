@@ -21,23 +21,26 @@
   <!--<link href="../App.css" rel="stylesheet" type="text/css" />-->
   <script src="../App.js"></script>
 
-  <link href="Home.css" rel="stylesheet" type="text/css" />
   <script src="Home.js"></script>
 </head>
 
 <body>
-  <div id="content-header">
-    <div class="padding">
-      <h1>Office UI Demo</h1>
-    </div>
-  </div>
-  <div id="content-main">
-    <div class="padding">
-      <p><strong>Add home screen content here.</strong></p>
-      <p>For example:</p>
-      <button id="get-data-from-selection">Get data from selection</button>
-
-    </div>
+  <div id="header"> 
+     <div class="ms-Grid"> 
+       <div class="ms-Grid-row"> 
+         <div class="ms-Grid-col ms-u-sm12 ms-u-md8 ms-u-lg12" > <div class="ms-font-xl" style="line-height:2em">Office UI Demo</div></div> 
+       </div> 
+     </div> 
+   </div> 
+ 
+  <div id="content">
+    <center> 
+           <button class="ms-Button" id="get-data-from-selection"> 
+               <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span> 
+               <span class="ms-Button-label">Get data</span> 
+               <span class="ms-Button-description">Get data from selection</span> 
+           </button> 
+       </center> 
   </div>
 </body>
 
